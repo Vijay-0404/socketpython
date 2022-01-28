@@ -2,6 +2,6 @@ import socket
 
 c = socket.socket()
 
-c.connect(('localhost',4000))
+c.connect((' 192.168.202.202',4000))
 
 c.recv(1024)
