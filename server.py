@@ -2,7 +2,7 @@ import socket
 
 s = socket.socket()
 print("socketed was created successfully")
-ADDR = ('localhost',4000)
+ADDR = (' 192.168.202.202',4000)
 s.bind(ADDR)
 s.listen(10)
 print("waitiing for the connections")
